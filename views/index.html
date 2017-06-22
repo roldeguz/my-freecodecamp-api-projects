@@ -1,0 +1,64 @@
+<!--
+  views/index.html
+  roldeguz
+  22-June-2017
+  freecodecamp API projects: timestamp microservice
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FreeCodeCamp: Timestamp Microservice</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Timestamp Microservice
+      </h1>
+    </header>
+
+    <main>
+      <p>
+        User Stories:
+        <ul>
+          <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).</li>  
+          <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+          <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+        </ul>
+      </p>
+      <p>
+        Usage:
+        <code>
+        <br />https://roldeguz-ts-microservice.glitch.me/June%2022,%202017
+        <br />https://roldeguz-ts-microservice.glitch.me/1498089600
+        </code>
+      </p>
+      <p>
+        Output:
+        <code>
+        <br />{ "unix": 1498089600, "natural": "June 22, 2017" }
+        </code>
+      </p>
+    </main>
+
+    <footer>
+      Created by
+      <a href="https://github.com/roldeguz/">
+        roldeguz
+      </a>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
