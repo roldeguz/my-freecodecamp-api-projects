@@ -6,11 +6,10 @@ FreeCodeCamp: Timestamp Microservice
 - If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 Usage: 
-<br />https://roldeguz-ts-microservice.glitch.me/June%2022,%202017
-<br />https://roldeguz-ts-microservice.glitch.me/1498089600
-<br /><br />
+> - https://roldeguz-ts-microservice.glitch.me/June%2022,%202017
+> - https://roldeguz-ts-microservice.glitch.me/1498089600
+
 Output: 
-<br />{ "unix": 1498089600, "natural": "June 22, 2017" }
-<br />
-<br />
-22-June-2017, roldeguz
+> { "unix": 1498089600, "natural": "June 22, 2017" }
+
+by: roldeguz, June 22, 2017
